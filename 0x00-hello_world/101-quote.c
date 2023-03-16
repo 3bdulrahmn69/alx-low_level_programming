@@ -1,4 +1,4 @@
-#include <srdio.h>
+#include <stdio.h>
 /**
  * main - heye there
  * Return: always 0 (succses)
