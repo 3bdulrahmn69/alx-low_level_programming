@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * main - hey there
- * return
+ *main - hey there
+ *Return: always 0 (Succses)
  */
 int main(void)
 {
