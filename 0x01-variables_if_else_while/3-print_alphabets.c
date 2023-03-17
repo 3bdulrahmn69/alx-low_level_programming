@@ -15,7 +15,7 @@ int main(void)
 	for (bi = 'A' ; bi <= 'Z' ; bi++)
 	{
 		putchar(bi);
-	putchar('\n');
 	}
+	putchar('\n');
 	return (0);
 }
