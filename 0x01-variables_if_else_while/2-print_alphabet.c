@@ -1,16 +1,14 @@
 #include <stdio.h>
 /**
- * main - hey main
- * Retutn: baby shark
+ * main - hey main he
+ * Return: baby shark do do
  */
 int main(void)
 {
-	char alph;
-
-	for(alph = a ; alph <= z ; a++)
+	for (char ph = a ; ph <= z ; ph++)
 	{
-		putchar(alph);
-		putchar("\n");
+		putchar(ph);
+		putchat("\n");
 	}
 	return (0);
 }
