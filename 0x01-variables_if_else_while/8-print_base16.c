@@ -1,19 +1,17 @@
 #include <stdio.h>
 /**
- * main - no no no
- * Return: hey ss
+ * main - just 5raaa
+ * Return: 5raaaaaaaaaaaa
  */
 int main(void)
 {
 	int i;
-	char j;
+	char k;
 
 	for (i = 0 ; i < 10 ; i++)
 		putchar(i + '0');
-
-	for (j = 'a' ; i <= 'f' ; j++)
-		putchar(j);
-
+	for (k = 'a' ; k <= 'f' ; k++)
+		putchar(k);
 	putchar('\n');
 	return (0);
 }
