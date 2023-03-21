@@ -1,5 +1,5 @@
 #include "main.h"
-#include <srdio.h>
+#include <stdio.h>
 /**
  * print_to_98 - Program enter point
  * Return: Program return
