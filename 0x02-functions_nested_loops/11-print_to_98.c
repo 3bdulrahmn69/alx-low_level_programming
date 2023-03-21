@@ -1,4 +1,5 @@
 #include "main.h"
+#include <srdio.h>
 /**
  * print_to_98 - Program enter point
  * Return: Program return
@@ -12,18 +13,14 @@ void print_to_98(int n)
 	{
 		for (i = n ; i <= 98 ; i++)
 		{
-		_putchar(i + '0');
-		_putchar(',');
-		_putchar(' ');
+		printf("%d ,", i);
 		}
 	}
 	else
 	{
 		for (i = n ; i >= 98 ; i--)
 		{
-			_putchar(i + '0');
-			_putchar(',');
-			_putchar(' ');
+			printf("%d ,", i);
 		}
 	}
 }
