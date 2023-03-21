@@ -3,7 +3,7 @@
  * print_alphabet - Program enter point
  * Return: Program return
  */
-void print_alphabet(void);
+void print_alphabet(void)
 {
 	char ph;
 
