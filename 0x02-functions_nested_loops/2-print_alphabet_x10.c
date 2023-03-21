@@ -1,14 +1,8 @@
 #include "main.h"
 /**
- * main - Program enter point
+ * print_alphabet_x10 - Program enter point
  * Return: Program return
  */
-int main(void)
-{
-	print_alphabet_x10();
-	return (0);
-}
-
 void print_alphabet_x10(void)
 {
 	char a;
