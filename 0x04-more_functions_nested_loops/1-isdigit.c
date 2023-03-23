@@ -6,11 +6,8 @@
  * @c: is an CcC
  */
 int _isdigit(int c)
-{
-	int k;
 
-	k = c % 10;
-	if (k >= '0' && k <= '9')
+	if (c >= '0' && c <= '9')
 		return (1);
 	else
 		return (0);
