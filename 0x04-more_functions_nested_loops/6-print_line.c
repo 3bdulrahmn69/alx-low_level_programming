@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_line - print 
+ * print_line - print
  * Return: line
  * @n: is an NnNn
  */
