@@ -1,4 +1,4 @@
-#inclde "main.h"
+#include "main.h"
 
 /**
  * print_triangle - print triangle
