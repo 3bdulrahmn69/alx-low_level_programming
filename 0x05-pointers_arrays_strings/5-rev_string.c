@@ -1,4 +1,4 @@
-#inclde "main.h"
+#include "main.h"
 
 /**
  * rev_string - revvv
@@ -12,10 +12,10 @@ void rev_string(char *s)
 
 	while (s[x] != '\0')
 	{
-		x++
+		x++;
 	}
 	y = x - 1;
-	for (z = 0 ; y >= 0 && z < y ; y-- ; z++)
+	for (z = 0 ; y >= 0 && z < y ; y-- , z++)
 	{
 		c = s[z];
 		s[z] = s[y];
