@@ -16,6 +16,6 @@ void reverse_array(int *a, int n)
 	}
 	for (i = 0 ; i <= len ; i++)
 	{
-		printf("%d\n", a[len - i]);
+		a[len - i];
 	}
 }
