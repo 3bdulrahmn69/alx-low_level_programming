@@ -22,7 +22,7 @@ int _strlen(const char *str)
  * @str: char
  * Return:the address of the new element, or NULL if it failed
  */
-ist_t *add_node(list_t **head, const char *str)
+list_t *add_node(list_t **head, const char *str)
 {
 	list_t *add;
 
