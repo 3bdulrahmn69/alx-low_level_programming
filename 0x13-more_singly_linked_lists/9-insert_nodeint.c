@@ -1,9 +1,9 @@
 #include "lists.h"
 
 /**
- * insert_nodeint_at_index - function that inserts a new node at a given position
- * @head; list ptr
- * @idx index of the list
+ * insert_nodeint_at_index - function that inserts a new node
+ * @head: list ptr
+ * @idx: index of the list
  * @n: int
  * Return:the address of the new node
  */
