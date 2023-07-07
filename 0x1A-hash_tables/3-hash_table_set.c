@@ -41,14 +41,15 @@ hash_node_t *make_hash_node(const char *key, const char *value)
  */
 int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 {
+	unsigned long int index = key_index((const unsigned char *)key, ht->size);
+	hash_node_t *tmp = ht->array[index];
+	hash_node_t *hash_node = make_hash_node(key, value);
+
 	if (ht == NULL || ht->array == NULL || ht->size == 0 || key == NULL
 			|| value == NULL || strlen(key) == 0)
 	{
 		return (0);
 	}
-
-	unsigned long int index = key_index((const unsigned char *)key, ht->size);
-	hash_node_t *tmp = ht->array[index];
 
 	while (tmp != NULL)
 	{
@@ -66,7 +67,6 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 		}
 		tmp = tmp->next;
 	}
-	hash_node_t *hash_node = make_hash_node(key, value);
 
 	if (hash_node == NULL)
 	{
